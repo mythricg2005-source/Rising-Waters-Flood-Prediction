@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rising Waters - Flood Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌊 Rising Waters</h1>
+
+<h2>Flood Prediction System</h2>
+
+<form action="/predict" method="POST">
+
+<input type="number" name="MonsoonIntensity" placeholder="Monsoon Intensity" required>
+
+<input type="number" name="TopographyDrainage" placeholder="Topography Drainage" required>
+
+<input type="number" name="RiverManagement" placeholder="River Management" required>
+
+<input type="number" name="Deforestation" placeholder="Deforestation" required>
+
+<input type="number" name="Urbanization" placeholder="Urbanization" required>
+
+<input type="number" name="ClimateChange" placeholder="Climate Change" required>
+
+<input type="number" name="DamsQuality" placeholder="Dams Quality" required>
+
+<input type="number" name="Siltation" placeholder="Siltation" required>
+
+<input type="number" name="AgriculturalPractices" placeholder="Agricultural Practices" required>
+
+<input type="number" name="Encroachments" placeholder="Encroachments" required>
+
+<input type="number" name="IneffectiveDisasterPreparedness" placeholder="Disaster Preparedness" required>
+
+<input type="number" name="DrainageSystems" placeholder="Drainage Systems" required>
+
+<input type="number" name="CoastalVulnerability" placeholder="Coastal Vulnerability" required>
+
+<input type="number" name="Landslides" placeholder="Landslides" required>
+
+<input type="number" name="Watersheds" placeholder="Watersheds" required>
+
+<input type="number" name="DeterioratingInfrastructure" placeholder="Infrastructure" required>
+
+<input type="number" name="PopulationScore" placeholder="Population Score" required>
+
+<input type="number" name="WetlandLoss" placeholder="Wetland Loss" required>
+
+<input type="number" name="InadequatePlanning" placeholder="Inadequate Planning" required>
+
+<input type="number" name="PoliticalFactors" placeholder="Political Factors" required>
+
+<br><br>
+
+<button type="submit">Predict Flood</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
